@@ -1,0 +1,10 @@
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://www.google.com"/>
+  <parameter name="timeout" value="10"/>
+    <packages>
+      <package name="scripts"/>
+    </packages>
+  </test> 
+</suite>
