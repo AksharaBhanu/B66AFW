@@ -15,5 +15,6 @@ public class TestCase2 extends BaseTest
 		String v=Excel.getData("./data/input.xlsx","TestCase1",1, 0);
 		Reporter.log("XL:"+v,true);
 		driver.switchTo().activeElement().sendKeys(v);
+		System.out.println("End");
 	}
 }
