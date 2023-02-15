@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
 public class ETTPage 
 {
@@ -22,10 +23,12 @@ public class ETTPage
 		try 
 		{
 			wait.until(ExpectedConditions.visibilityOf(logoutLink));
+			Reporter.log("HomePage is displayed",true);
 			return true;
 		}
 		catch (Exception e) 
 		{
+			Reporter.log("HomePage is NOT displayed",true);
 			return false;
 		}
 	}
