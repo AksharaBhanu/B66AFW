@@ -1,6 +1,6 @@
 <suite name="Suite">
   <test name="Test">
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="firefox"/>
   <parameter name="url" value="https://demo.actitime.com/login.do"/>
   <parameter name="timeout" value="10"/>
     <packages>
