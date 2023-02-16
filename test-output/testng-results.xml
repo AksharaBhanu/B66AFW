@@ -5,7 +5,7 @@
       <![CDATA[Open the browser:chrome]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:http://www.google.com]]>
+      <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
@@ -14,21 +14,18 @@
       <![CDATA[Set the TimeOut:10]]>
     </line>
     <line>
-      <![CDATA[Google]]>
-    </line>
-    <line>
-      <![CDATA[XL:Bhanu]]>
+      <![CDATA[HomePage is displayed]]>
     </line>
     <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-14T09:03:51 IST" name="Suite" finished-at="2023-02-14T09:03:57 IST" duration-ms="6327">
+  <suite started-at="2023-02-15T09:10:38 IST" name="Suite" finished-at="2023-02-15T09:10:52 IST" duration-ms="14457">
     <groups>
     </groups>
-    <test started-at="2023-02-14T09:03:51 IST" name="Test" finished-at="2023-02-14T09:03:57 IST" duration-ms="6327">
-      <class name="scripts.TestCase1">
-        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.TestCase1@1b7cc17c]" started-at="2023-02-14T09:03:51 IST" name="openApp" finished-at="2023-02-14T09:03:56 IST" duration-ms="4850" status="PASS">
+    <test started-at="2023-02-15T09:10:38 IST" name="Test" finished-at="2023-02-15T09:10:52 IST" duration-ms="14457">
+      <class name="scripts.ValidLogin">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.ValidLogin@1b7cc17c]" started-at="2023-02-15T09:10:38 IST" name="openApp" finished-at="2023-02-15T09:10:47 IST" duration-ms="8855" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +34,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[https://demo.actitime.com/login.do]]>
               </value>
             </param>
             <param index="2">
@@ -51,7 +48,7 @@
               <![CDATA[Open the browser:chrome]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:http://www.google.com]]>
+              <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
@@ -61,24 +58,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testA()[pri:0, instance:scripts.TestCase1@1b7cc17c]" started-at="2023-02-14T09:03:56 IST" name="testA" finished-at="2023-02-14T09:03:57 IST" duration-ms="1151" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@1b7cc17c]" started-at="2023-02-15T09:10:47 IST" name="testValidLogin" finished-at="2023-02-15T09:10:51 IST" duration-ms="4834" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Google]]>
-            </line>
-            <line>
-              <![CDATA[XL:Bhanu]]>
+              <![CDATA[HomePage is displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.TestCase1@1b7cc17c]" started-at="2023-02-14T09:03:57 IST" name="closeApp" finished-at="2023-02-14T09:03:57 IST" duration-ms="252" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.ValidLogin@1b7cc17c]" started-at="2023-02-15T09:10:51 IST" name="closeApp" finished-at="2023-02-15T09:10:52 IST" duration-ms="674" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- scripts.TestCase1 -->
+      </class> <!-- scripts.ValidLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

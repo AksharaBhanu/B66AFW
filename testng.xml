@@ -1,7 +1,7 @@
 <suite name="Suite">
   <test name="Test">
   <parameter name="browser" value="chrome"/>
-  <parameter name="url" value="http://www.google.com"/>
+  <parameter name="url" value="https://demo.actitime.com/login.do"/>
   <parameter name="timeout" value="10"/>
     <packages>
       <package name="scripts"/>
