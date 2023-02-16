@@ -5,27 +5,27 @@
       <![CDATA[Open the browser:chrome]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
+      <![CDATA[Enter the URL:https://demo.actitime.com]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
     </line>
     <line>
-      <![CDATA[Set the TimeOut:10]]>
+      <![CDATA[Set the TimeOut:5]]>
     </line>
     <line>
-      <![CDATA[HomePage is displayed]]>
+      <![CDATA[Err Msg is Displayed]]>
     </line>
     <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-15T09:10:38 IST" name="Suite" finished-at="2023-02-15T09:10:52 IST" duration-ms="14457">
+  <suite started-at="2023-02-16T08:08:30 IST" name="Default suite" finished-at="2023-02-16T08:08:42 IST" duration-ms="12095">
     <groups>
     </groups>
-    <test started-at="2023-02-15T09:10:38 IST" name="Test" finished-at="2023-02-15T09:10:52 IST" duration-ms="14457">
-      <class name="scripts.ValidLogin">
-        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.ValidLogin@1b7cc17c]" started-at="2023-02-15T09:10:38 IST" name="openApp" finished-at="2023-02-15T09:10:47 IST" duration-ms="8855" status="PASS">
+    <test started-at="2023-02-16T08:08:30 IST" name="Default test" finished-at="2023-02-16T08:08:42 IST" duration-ms="12095">
+      <class name="scripts.InvalidLogin">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.InvalidLogin@36902638]" started-at="2023-02-16T08:08:30 IST" name="openApp" finished-at="2023-02-16T08:08:39 IST" duration-ms="9619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,12 +34,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://demo.actitime.com/login.do]]>
+                <![CDATA[https://demo.actitime.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[5]]>
               </value>
             </param>
           </params>
@@ -48,31 +48,31 @@
               <![CDATA[Open the browser:chrome]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:https://demo.actitime.com/login.do]]>
+              <![CDATA[Enter the URL:https://demo.actitime.com]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
             </line>
             <line>
-              <![CDATA[Set the TimeOut:10]]>
+              <![CDATA[Set the TimeOut:5]]>
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testValidLogin()[pri:1, instance:scripts.ValidLogin@1b7cc17c]" started-at="2023-02-15T09:10:47 IST" name="testValidLogin" finished-at="2023-02-15T09:10:51 IST" duration-ms="4834" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:scripts.InvalidLogin@36902638]" started-at="2023-02-16T08:08:39 IST" name="testInvalidLogin" finished-at="2023-02-16T08:08:41 IST" duration-ms="1755" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[HomePage is displayed]]>
+              <![CDATA[Err Msg is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.ValidLogin@1b7cc17c]" started-at="2023-02-15T09:10:51 IST" name="closeApp" finished-at="2023-02-15T09:10:52 IST" duration-ms="674" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.InvalidLogin@36902638]" started-at="2023-02-16T08:08:41 IST" name="closeApp" finished-at="2023-02-16T08:08:42 IST" duration-ms="606" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- scripts.ValidLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- scripts.InvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
