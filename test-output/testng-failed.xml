@@ -3,7 +3,8 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="http://www.google.com"/>
+    <parameter name="gridurl" value="http://192.168.29.187:4444"/>
+    <parameter name="url" value="https://demo.actitime.com/login.do"/>
     <parameter name="timeout" value="10"/>
     <classes>
       <class name="scripts.ValidLogin">
@@ -13,6 +14,13 @@
           <include name="testValidLogin"/>
         </methods>
       </class> <!-- scripts.ValidLogin -->
+      <class name="scripts.InvalidLogin">
+        <methods>
+          <include name="openApp"/>
+          <include name="testInvalidLogin"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- scripts.InvalidLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
